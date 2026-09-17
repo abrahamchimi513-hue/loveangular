@@ -1,0 +1,92 @@
+.section{
+  /* border: 2px solid gold; */
+  height: 100vh;
+  display: flex;
+}
+.aside{
+  /* border: 2px solid chartreuse; */
+  height: 100%;
+  width: 25%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-color: chartreuse;
+  font-size: 25px;
+}
+.main{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 50%;
+}
+.aside1{
+  /* border: 2px solid palevioletred; */
+  height: 100%;
+  width: 25%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  display: flex;
+  background-color: palegoldenrod;
+}
+.header{
+  /* border: 2px solid black; */
+  color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(69, 84, 74);
+  font-size: 25px;
+  height: 15%;
+}
+.main1{
+  /* border: 2px solid slateblue; */
+  height: 70%;
+  display: flex;
+}
+.footer{
+  /* border: 2px solid hotpink; */
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: hotpink;
+  font-size: 25px;
+  display: flex;
+}
+.right{
+  /* border: 2px solid navy; */
+  width: 50%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: navy;
+  display: flex;
+}
+.main2{
+  /* border: 2px solid teal; */
+  width: 50%;
+
+}
+.top{
+  /* border: 2px solid darkred; */
+  height: 50%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  display: flex;
+  background-color: darkred;
+}
+.bottom{
+  /* border: 2px solid mediumspringgreen; */
+  height: 50%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  display: flex;
+  background-color: mediumseagreen;
+}
