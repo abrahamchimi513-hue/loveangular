@@ -1,0 +1,50 @@
+.section{
+  width: 700px;
+  height: 350px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: 60px 1fr 70px;
+  grid-template-areas:
+    "aside header"
+    "aside main"
+    "aside footer";
+}
+
+.aside{
+  grid-area: aside;
+  background: blue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:black;
+}
+
+.header{
+  grid-area: header;
+  background: #00ff00;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+  border-bottom:2px solid black;
+}
+
+.main{
+  grid-area: main;
+  background: red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+}
+
+.footer{
+  grid-area: footer;
+  background: yellow;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+  border-top:2px solid black;
+}

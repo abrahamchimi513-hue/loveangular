@@ -1,0 +1,80 @@
+.section{
+  border: 2px solid black;
+  height: 100vh;
+
+
+}
+.header{
+  border: 2px solid green;
+  height: 15%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  display: flex;
+  font-size: 25px;
+}
+.main{
+  border: 2Px solid blue;
+  height: 70%;
+  display: flex;
+  color: #fff;
+  background-color: rgb(128, 0, 58);
+  font-size: 25px;
+}
+.footer{
+  border: 2px solid gold;
+  height: 15%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-color: gold;
+  display: flex;
+  font-size: 25px;
+}
+.left{
+  border: 2px solid fuchsia;
+  width: 33%;
+  color: #fff;
+  font-size:25px;
+  justify-content: center;
+  display: flex;
+  background-color: fuchsia;
+  align-items: center;
+}
+.main1{
+  border: 2px solid navajowhite;
+  width: 33%;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: navajowhite;
+  align-items: center;
+
+}
+.right{
+  border: 2px solid rosybrown;
+  width:34% ;
+
+}
+.top{
+  border: 2px solid skyblue;
+height: 50%;
+justify-content: center;
+display: flex;
+color: #fff;
+align-items: center;
+background-color: skyblue;
+font-size: 25px;
+}
+.bottom{
+  border: 2px solid chartreuse;
+  height: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  align-items: center;
+  background-color: rgb(32, 33, 35);
+}

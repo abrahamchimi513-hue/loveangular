@@ -1,0 +1,64 @@
+.section{
+  width: 700px;
+  height: 350px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 160px ;
+  grid-template-rows: 60px 1fr 70px;
+  grid-template-areas:
+    "aside header header"
+    "aside main main"
+    "aside footer footer";
+}
+
+.aside{
+  border:2px solid black;
+  grid-area: aside;
+  background: blue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.header{
+  border:2px solid black ;
+  grid-area: header;
+  background: #00ff00;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+  border-bottom:2px solid black;
+}
+
+.main{
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* pour couper left et right */
+}
+
+.left{
+  background: orange;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+}
+
+.right{
+  background: red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+}
+
+.footer{
+  grid-area: footer;
+  background: yellow;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-left:2px solid black;
+  border-top:2px solid black;
+}

@@ -16,6 +16,7 @@
    background-color: brown;
    color: #fff;
    font-size: 20px;
+   display: flex;
 }
 .left{
    /* border:2px solid green; */
